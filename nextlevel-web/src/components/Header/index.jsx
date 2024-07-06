@@ -1,11 +1,11 @@
+import styles from './index.module.scss'
+
 
 export const Header = () => {
-    return(
-        <header>
-            <nav>
-               <img></img> 
-               <button>Contato</button>
-            </nav>
-        </header>
+    return (
+        <nav className={styles.nav} >
+            <img></img>
+            <button>Contato</button>
+        </nav>
     )
 }
